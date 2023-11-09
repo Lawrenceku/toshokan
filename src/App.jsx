@@ -1,12 +1,20 @@
 import './App.css'
 import Onboarding from './Pages/onboarding'
+import Login from './Pages/Login'
+import {BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 function App() {
 
   return (
     <>
-    <Onboarding/>
-      
+     <Router>
+      <Routes>
+        <Route path='*' element={<Onboarding/>}/>
+        <Route path="/" element={<Onboarding/>} />
+        <Route path='/Login' element={<Login/>}/>
+      </Routes>
+    </Router>
+    
     </>
   )
 }
