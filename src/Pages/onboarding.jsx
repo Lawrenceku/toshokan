@@ -1,5 +1,6 @@
 import splash from '/src/assets/20231109_212319.jpg'
 import logo from '/src/assets/20231109_212410.png'
+import Button from '@mui/material/Button';
 
 export default function Onboarding(){
    return(
@@ -9,7 +10,7 @@ export default function Onboarding(){
         </div>
         <h1 className='font-bold text-3xl mt-16'>Welcome</h1>
         <p className=' p-5  pb-8'>Welcome to Toshokan, your gateway to a world of literary wonders! We're thrilled to have you on board. </p>
-        <button className='font-medium text-white bg-[#001f3f] rounded py-3 px-6'>Next</button>
+        <Button  className='font-medium text-white bg-[#001f3f] rounded py-2 px-6' variant="contained">Next</Button>
     </section>
 
    )
