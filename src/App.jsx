@@ -1,10 +1,12 @@
 import './App.css'
+import Onboarding from './Pages/onboarding'
 
 function App() {
 
   return (
     <>
-      <div className='text-lg text-red-600'>Hello, welcome to toshokan!</div>
+    <Onboarding/>
+      
     </>
   )
 }
