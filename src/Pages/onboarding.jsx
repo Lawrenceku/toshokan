@@ -9,7 +9,7 @@ export default function Onboarding(){
         <img className='w-80' src='https://img.freepik.com/free-vector/new-employee-concept-illustration_114360-8899.jpg?w=740&t=st=1699564473~exp=1699565073~hmac=dd1bde6877ff6bfecdc417d4f9e9f742eb915b2963a139e179691b8b18f01de4' alt="" />
         </div>
         <h1 className='font-bold text-3xl mt-16'>Welcome</h1>
-        <p className=' p-5  pb-8'>Welcome to Toshokan, your gateway to a world of literary wonders! We're thrilled to have you on board. </p>
+        <p className=' p-4  pb-8'>Welcome to Toshokan, your gateway to a world of literary wonders! We're thrilled to have you on board. </p>
         <Button  className='font-medium text-white bg-[#001f3f] rounded py-2 px-6' variant="contained">Next</Button>
     </section>
 
