@@ -1,5 +1,4 @@
-import splash from '/src/assets/20231109_212319.jpg'
-import logo from '/src/assets/20231109_212410.png'
+import splash from '/src/assets/20231110_072135.jpg'
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import '/src/assets/login.css'
