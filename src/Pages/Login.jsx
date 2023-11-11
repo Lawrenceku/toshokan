@@ -11,7 +11,7 @@ export default function Login(){
     const [alert, setAlert] = useState(false)
     
    function login(){
-    navigate('/application')
+    navigate('/home')
    }
 
 return(

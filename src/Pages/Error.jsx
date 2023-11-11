@@ -2,7 +2,7 @@
 export default function Error(){
     return(
         <section className="flex justify-center items-center">
-            <h1 className="font-bold text-3xl">404 ERROR FOLKS!</h1>
+            <h1 className="font-bold text-3xl">SOMETHING WENT WRONG!</h1>
             <footer className='fixed flex justify-around items-center left-0 bottom-0 w-full h-16 border  shadow-md bg-white'>
             <div className="flex flex-col">
                 <a href="/home" className="focus:text-red-800">Home</a>
