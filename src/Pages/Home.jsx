@@ -10,10 +10,10 @@ export default function Home(){
           <a onClick={navigate("./Home")} className="focus:text-red-800">Home</a>
      </div>
      <div className="flex flex-col ">
-          <a  href="/Explore" onClick={navigate("./Explore")}  className="focus:text-red-800">Explore</a>
+          <a   onClick={navigate("./Explore")}  className="focus:text-red-800">Explore</a>
      </div>
      <div className="flex flex-col">
-          <a href="/me" onClick={navigate("./Me")} className="focus:text-red-800">Me</a>
+          <a  onClick={navigate("./Me")} className="focus:text-red-800">Me</a>
      </div>
     </footer>
         </section>
