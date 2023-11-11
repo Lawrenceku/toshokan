@@ -16,16 +16,16 @@ export default function Home(){
       navigate("/Me")
     }
     return(
-        <section className="flex flex-col bg-red-800">
+        <section className="flex flex-col h-full w-full bg-red-800">
             <section className="w-full h-full bg-green-700">
               <header className="flex ">
                     <p className='h-2 w-28'>
                     <img src={logo} alt="" />
                     </p>
-                    jdjdjd
+                    
               </header>
               <div>
-                <h1 className="w-full text-6xl font-medium text-left">My Bookshelf</h1>
+                <h1 className="w-full text-6xl font-medium text-left ">My Bookshelf</h1>
               </div>
             </section>
 

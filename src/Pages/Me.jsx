@@ -18,7 +18,7 @@ export default function Me(){
     return(
         <section className="flex justify-center items-center">
             <section className="flex flex-col items-center">
-            <h1 className="font-bold text-3xl m-8">Me</h1>
+            <h1 className="font-bold text-3xl m-8"></h1>
             <SyncLoader color="#001f3f" />
             </section>
 
