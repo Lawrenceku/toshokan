@@ -5,6 +5,7 @@ import Application from './Pages/Application'
 import Home from '/src/Pages/Home'
 import Explore from '/src/Pages/Explore'
 import Me from '/src/Pages/Me'
+import Error from '/src/Pages/error';
 import {BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     <>
      <Router>
       <Routes>
-        <Route path='*' element={<Login/>}/>
+        <Route path='*' element={<Error/>}/>
         <Route path="/" element={<Onboarding/>} />
         <Route path='/Login' element={<Login/>}/>
         <Route path='/Application' element={<Application/>}/>
