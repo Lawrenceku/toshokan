@@ -5,6 +5,9 @@ import Person2Icon from '@mui/icons-material/Person2';
 
 export default function Home(){
     const navigate = useNavigate()
+    function b(){
+      navigate("/Explore")
+    }
     return(
         <section className="flex justify-center items-center">
             <h1 className="font-bold text-3xl ">Home</h1>
@@ -15,7 +18,7 @@ export default function Home(){
      </div>
      <div className="flex flex-col items-center">
         <ExploreIcon></ExploreIcon>
-          <button   onClick={navigate("/Explore")} >Explore</button>
+          <button   onClick={b()} >Explore</button>
      </div>
      <div className="flex flex-col items-center">
         <Person2Icon></Person2Icon>
