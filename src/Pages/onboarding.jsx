@@ -1,6 +1,4 @@
 import Button from '@mui/material/Button';
-import Slider from 'slider-moon';
-import 'slider-moon/dist/style.css'
 import { useNavigate } from "react-router-dom";
 
 export default function Onboarding(){
@@ -9,26 +7,7 @@ export default function Onboarding(){
    return(
     <section className='flex flex-col items-center'>
         <div className=' h-auto flex flex-col items-center justify-center w- mt-8'>
-        {/* <Slider
-  slideClass={'my-slider'}
-  infinite={true}
-  bullets={true}
-  arrowsNav={true}
-  animation={'scale'}
-  callback={() => {
-    console.log('here');
-  }}
->
-    <div className='slider my-slider'>
-      <ul className='slider-wrapper'>
-        {items.map((item) => (
-          <li key={item}>
-            <img src={yourImage} />
-          </li>
-        ))}
-      </ul>
-    </div>
-</Slider> */}
+        
         <img className='w-80' src='https://img.freepik.com/free-vector/new-employee-concept-illustration_114360-8899.jpg?w=740&t=st=1699564473~exp=1699565073~hmac=dd1bde6877ff6bfecdc417d4f9e9f742eb915b2963a139e179691b8b18f01de4' alt="" />
         
         </div>
