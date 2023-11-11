@@ -2,29 +2,48 @@ import { useNavigate } from "react-router-dom";
 import AppsIcon from '@mui/icons-material/Apps';
 import ExploreIcon from '@mui/icons-material/Explore';
 import Person2Icon from '@mui/icons-material/Person2';
+import logo from '/src/assets/logo.png'
 
 export default function Home(){
     const navigate = useNavigate()
+    function a(){
+      navigate("/Home")
+    }
     function b(){
       navigate("/Explore")
     }
+    function c(){
+      navigate("/Me")
+    }
     return(
-        <section className="flex justify-center items-center">
-            <h1 className="font-bold text-3xl ">Home</h1>
-            <footer className='fixed flex justify-around items-center left-0 bottom-0 w-full h-16 border  shadow-md bg-white'>
-     <div className="flex flex-col items-center">
-        <AppsIcon className="text-[#001f3f] font-bold"></AppsIcon>
-          <button onClick={navigate("/Home")} className="text-[#001f3f] font-bold">Home</button>
-     </div>
-     <div className="flex flex-col items-center">
-        <ExploreIcon></ExploreIcon>
-          <button   onClick={b()} >Explore</button>
-     </div>
-     <div className="flex flex-col items-center">
-        <Person2Icon></Person2Icon>
-          <button  onClick={navigate("/Me")}>Me</button>
-     </div>
-    </footer>
+        <section className="flex flex-col bg-red-800">
+            <section className="w-full h-full bg-green-700">
+              <header className="flex ">
+                    <p className='h-2 w-28'>
+                    <img src={logo} alt="" />
+                    </p>
+                    jdjdjd
+              </header>
+              <div>
+                <h1 className="w-full text-6xl font-medium text-left">My Bookshelf</h1>
+              </div>
+            </section>
+
+            
+          <footer className='fixed flex justify-around items-center left-0 bottom-0 w-full h-16 border  shadow- bg-white'>
+              <button onClick={a}  className="flex flex-col items-center">
+                  <AppsIcon className="text-[#001f3f] font-bold"></AppsIcon>
+                    <p className="text-[#001f3f] font-bold">Home</p>
+              </button>
+              <button onClick={b} className="flex flex-col items-center">
+                  <ExploreIcon></ExploreIcon>
+                    <p    >Explore</p>
+              </button>
+              <button onClick={c} className="flex flex-col items-center">
+                  <Person2Icon></Person2Icon>
+                    <p  >Me</p>
+              </button>
+           </footer>
         </section>
     )
 }

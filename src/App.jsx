@@ -1,4 +1,3 @@
-import { Analytics } from '@vercel/analytics/react';
 import './App.css'
 import Onboarding from './Pages/onboarding'
 import Login from './Pages/Login';
