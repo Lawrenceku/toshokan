@@ -15,7 +15,7 @@ export default function Login(){
    }
 
 return(
-    <section className='flex flex-col items-center overflow-hidden'>
+    <section className='flex flex-col p-10 items-center overflow-hidden'>
         <Alert className='w-full md:w-80 absolute top-0' severity="error">There was an error with connection!</Alert>
         <div className='w-80  h-80 flex justify-center'>
             <img src={splash} alt="" />
