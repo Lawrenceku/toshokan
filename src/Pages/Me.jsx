@@ -3,6 +3,7 @@ import AppsIcon from '@mui/icons-material/Apps';
 import ExploreIcon from '@mui/icons-material/Explore';
 import Person2Icon from '@mui/icons-material/Person2';
 import { SyncLoader } from "react-spinners";
+import '/src/assets/application.css'
 
 export default function Me(){
     const navigate = useNavigate()
