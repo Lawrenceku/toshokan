@@ -78,7 +78,7 @@ export default function Home(){
                 </div>
               </div>
               <section className="rounded-3xl p-4 mt-10 shadow-[0px_-10px_40px_-20px_rgba(0,0,0,0.3)] ">
-                <h1 className="font-medium text-lg ">Your Books (5)</h1>
+                <h1 className="font-medium text-lg ">Your Books (4)</h1>
                 <div className="flex flex-col ">
                   
                 
