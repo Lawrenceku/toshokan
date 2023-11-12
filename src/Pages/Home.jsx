@@ -24,7 +24,7 @@ export default function Home(){
     return(
         <section className="flex flex-col p-4 h-full  w-full ">
             <section className="w-full h-full mb-20">
-              <header className="flex justify-between items-center">
+              <header className="flex sticky top-0 justify-between items-center bg-white">
                     <p className='h- w-28'>
                     <img src={logo} alt="" />
                     </p>
