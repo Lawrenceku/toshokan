@@ -83,12 +83,12 @@ export default function Home(){
                   
                 
                 <div className="max-w-sm w-full my-8 lg:max-w-full lg:flex hover:shadow-md duration-200">
-      <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style={{ backgroundImage: "url('https://img.freepik.com/free-vector/good-paper-wattpad-book-cover_23-2149452379.jpg?w=740&t=st=1699783152~exp=1699783752~hmac=4378c1e852586fe6f5541f4eb64f460598512cbd427a466663564812db2450e1')" }} title="Woman holding a mug">
+      <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style={{ backgroundImage: "url('https://img.freepik.com/free-psd/science-festival-template-design_23-2150651055.jpg?size=626&ext=jpg&ga=GA1.1.1917407316.1652918962&semt=sph')" }} title="Woman holding a mug">
       </div>
       <div className=" bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
         <div className="mb-8">
           
-          <div className="text-gray-900 font-bold text-xl mb-2">  Looks Good On Paper</div>
+          <div className="text-gray-900 font-bold text-xl mb-2">  Biology Simplified For Monkeys</div>
           <p className="text-gray-700 text-base">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet.consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
         </div>
         
