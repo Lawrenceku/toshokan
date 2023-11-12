@@ -36,6 +36,7 @@ export  function Onboarding_B(){
     function welcome (){navigate("/")}
     function login(){navigate("/Login")}
     function Next(){navigate("/start")}
+    
    return(
     <section className='flex flex-col p-4 items-center'>
         <p className='w-full flex justify-end'>
@@ -82,9 +83,9 @@ export  function Onboarding_C(){
             <button onClick={ready} className='rounded-full bg-gray-800 h-2 w-2 m-1'></button>
             <button className='rounded-full bg-gray-800 h-3 w-3 m-1'></button>
         </div>
-        <div className='w-full flex flex-col justify-center md:justify-center mt-8'>
-        <Button onClick={signup}  className='font-medium  w-full md:w-auto text-white bg-[#001f3f] rounded-full py-2 px-6' variant="contained">Get Started </Button>
-        <Button onClick={login}  className='font-medium mt-4 w-full md:w-auto text-[#001f3f] border-1 border-[#001f3f] bg-white rounded-full py-2 px-6' variant="contained">Log In </Button>
+        <div className='w-full flex flex-col justify-center items-center md:justify-center mt-8'>
+        <Button onClick={signup}  className='font-medium  w-full md:w-40 text-white bg-[#001f3f] rounded-full py-2 px-6' variant="contained">Get Started </Button>
+        <Button onClick={login}  className='font-medium mt-4 w-full md:w-40 text-[#001f3f] border-1 border-[#001f3f] bg-white rounded-full py-2 px-6' variant="contained">Log In </Button>
         </div>
     </section>
 
