@@ -57,7 +57,7 @@ export default function Home(){
                       <div class="p-10 ">  
   
                     <div class="bg-[#fefaff] max-w-sm rounded overflow-hidden shadow-lg">
-                    <img class="w-full"  src="https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg?w=740&t=st=1699740387~exp=1699740987~hmac=81ea4f652a1424f7a38ad7acbe41d0dc9993d093914f75db2b58e7cc4abeeb6f" alt="" />
+                    <img class="w-full"  src="https://img.freepik.com/free-photo/close-up-house-blueprints_329181-3484.jpg?size=626&ext=jpg&ga=GA1.1.1917407316.1652918962&semt=ais" alt="" />
                       <div class="px-6 py-4">
                         <div class="font-bold text-xl mb-2">Engineering Mathematics</div>
                         <p class="text-gray-700 text-base">
