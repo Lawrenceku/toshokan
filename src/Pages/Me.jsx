@@ -49,7 +49,7 @@ export default function Me(){
                     </div>
                     <div className="-2 flex justify-between shadow-sm my-8 items-center ">
                       <button className="flex items-center">
-                      <img className="h-20 mr-2" src="https://img.freepik.com/free-vector/golden-cup-with-arrow-hitting-target-center_3446-458.jpg?w=740&t=st=1699825698~exp=1699826298~hmac=d6a76a9f5c4bc67586ac36c67b83a3dab4cf58f87dc47cf650e83190aba52b4d" alt="" /><span className="font-medium">Challenges</span> 
+                      <img className="h-20 mr-2" src="https://static-00.iconduck.com/assets.00/challenge-icon-2048x2048-30y0t2s5.png" alt="" /><span className="font-medium">Challenges</span> 
                       </button>
                           <span className="font-medium text-2xl">></span>
                     </div>

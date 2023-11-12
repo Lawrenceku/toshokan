@@ -51,7 +51,7 @@ export default function Home(){
             </Paper>
               </header>
               <div className="mt-16 flex flex-col">
-                <h1 className="w-full p-4 text-4xl font-medium text-left font-serif text-gray-900">Recommended</h1>
+                <h1 className="w-full p-8 text-4xl font-medium text-left font-serif text-gray-900">Recommended</h1>
                 <div className="flex flex-grow  ">
                     
                       <div class="p-10 ">  
