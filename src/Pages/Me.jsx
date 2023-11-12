@@ -23,7 +23,7 @@ export default function Me(){
             <SyncLoader color="#001f3f" />
             </section>
 
-            <footer className='fixed flex justify-around items-center left-0 bottom-0 w-full h-16 border  shadow-md bg-white'>
+            <footer className='fixed flex justify-around items-center left-0 bottom-0 w-full h-16 shadow-[0px_-10px_20px_-20px_rgba(0,0,0,0.3)]  bg-white'>
                   <button onClick={a} className="flex flex-col items-center">
                       <AppsIcon ></AppsIcon>
                         <p >Home</p>
