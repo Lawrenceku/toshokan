@@ -3,6 +3,11 @@ import AppsIcon from '@mui/icons-material/Apps';
 import ExploreIcon from '@mui/icons-material/Explore';
 import Person2Icon from '@mui/icons-material/Person2';
 import logo from '/src/assets/logo.png'
+import Paper from '@mui/material/Paper';
+import InputBase from '@mui/material/InputBase';
+import IconButton from '@mui/material/IconButton';
+import MenuIcon from '@mui/icons-material/Menu';
+import SearchIcon from '@mui/icons-material/Search';
 //import '/src/assets/application.css'
 
 export default function Home(){
@@ -19,13 +24,33 @@ export default function Home(){
     return(
         <section className="flex flex-col p-4 h-full  w-full ">
             <section className="w-full h-full mb-20">
-              <header className="flex ">
+              <header className="flex justify-between items-center">
                     <p className='h- w-28'>
                     <img src={logo} alt="" />
                     </p>
+                            <Paper className="rounded-full h-10"
+              component="form"
+              sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 400 }}
+            >
+              <IconButton sx={{ p: '10px' }} aria-label="menu">
+                <MenuIcon />
+              </IconButton>
+              <InputBase
+                sx={{ ml: 1, flex: 1 }}
+                placeholder="Search Books"
+                inputProps={{ 'aria-label': 'Search Books' }}
+              />
+              <IconButton type="button" sx={{ p: '10px' }} aria-label="search">
+                <SearchIcon />
+              </IconButton>
+              
+              <IconButton color="primary" sx={{ p: '10px' }} aria-label="directions">
+                
+              </IconButton>
+            </Paper>
               </header>
               <div className="mt-16 flex flex-col">
-                <h1 className="w-full text-5xl font-medium text-left text-gray-900">Recommended</h1>
+                <h1 className="w-full p-4 text-4xl font-medium text-left text-gray-900">Recommended</h1>
                 <div className="flex flex-grow ">
                     
                       <div class="p-10">  
@@ -39,9 +64,9 @@ export default function Home(){
                         </p>
                       </div>
                       <div class="px-6 pt-4 pb-2">
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#University</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Mathematics</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Engineering</span>
                       </div>
                     </div>
                   </div>
