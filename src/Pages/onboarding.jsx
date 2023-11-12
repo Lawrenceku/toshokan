@@ -5,7 +5,7 @@ export default function Onboarding(){
     const navigate = useNavigate()
     function login(){navigate("./Login")}
    return(
-    <section className='flex flex-col  items-center'>
+    <section className='flex flex-col p-4 items-center'>
         <div className=' h-auto flex flex-col items-center justify-center w- mt-8'>
         
         <img className='w-80' src='https://img.freepik.com/free-vector/new-employee-concept-illustration_114360-8899.jpg?w=740&t=st=1699564473~exp=1699565073~hmac=dd1bde6877ff6bfecdc417d4f9e9f742eb915b2963a139e179691b8b18f01de4' alt="" />
