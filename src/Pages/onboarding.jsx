@@ -48,7 +48,7 @@ export  function Onboarding_B(){
         
         </div>
         <h1 className='text-center font-bold text-3xl mt-10'>You Seek Knowledge?</h1>
-        <p className=' p-4  pb-8 text-center'>Then you have come to the right place. Get access to a sought after books all for free and make use of our free tools to assist you studying journey. </p>
+        <p className=' p-4  pb-8 text-center'>Then you have come to the right place. Get access to sought after books all for free and make use of our free tools to assist you studying journey. </p>
         <div className='flex justify-center items-center'>
             <button onClick={welcome} className='rounded-full bg-gray-800 h-2 w-2 m-1'></button>
             <button className='rounded-full bg-gray-800 h-3 w-3 m-1'></button>
@@ -77,7 +77,7 @@ export  function Onboarding_C(){
         
         </div>
         <h1 className='text-center font-bold text-3xl mt-10'>Start Reading Now</h1>
-        <p className=' p-4  pb-8 text-center'>Welcome to Toshokan, your gateway to a world of literary wonders! We're thrilled to have you on board. </p>
+        <p className=' p-4  pb-8 text-center'>Begin your journey to literacy now. Experience a world of infinte knowledge </p>
         <div className='flex items-center justify-center'>
             <button onClick={welcome} className='rounded-full bg-gray-800 h-2 w-2 m-1'></button>
             <button onClick={ready} className='rounded-full bg-gray-800 h-2 w-2 m-1'></button>
