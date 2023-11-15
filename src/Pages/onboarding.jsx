@@ -56,7 +56,7 @@ export  function Onboarding_A(){
                 
                 </div>
                 <h1 className='text-center font-bold text-3xl mt-10'>You Seek Knowledge?</h1>
-                <p className=' p-4  pb-8 text-center'>Uncover the treasures of wisdom within Toshokan –Start your Toshokan adventure now and explore our advanced learning tools– your gateway to a world of boundless knowledge and discovery.. </p>
+                <p className=' p-4  pb-8 text-center'>Uncover wisdom in Toshokan! Start your adventure now with advanced learning tools – your gateway to boundless knowledge.</p>
         </SwiperSlide>
         <SwiperSlide className='flex flex-col p-4 items-center'>
             <div className=' h-auto flex flex-col items-center justify-center '>
