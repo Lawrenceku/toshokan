@@ -1,5 +1,5 @@
 import './App.css'
-import {Onboarding_A, Onboarding_B,Onboarding_C} from './Pages/onboarding'
+import {Onboarding_A} from './Pages/onboarding'
 import {SignUp,Login} from './Pages/Login';
 import Application from './Pages/Application'
 import Home from '/src/Pages/Home'
@@ -16,8 +16,7 @@ function App() {
       <Routes>
       <Route path="*" element={<Error/>} />
         <Route path="/" element={<Onboarding_A/>} />
-        <Route path="/ready" element={<Onboarding_B/>} />
-        <Route path="/start" element={<Onboarding_C/>} />
+        
         <Route path='/Login' element={<Login/>}/>
         <Route path='/SignUp' element={<SignUp/>}/>
         <Route path='/Application' element={<Application/>}/>
