@@ -91,6 +91,23 @@ export default function Explore(){
         }}
         modules={[Pagination]}
         className="mySwiper"
+        breakpoints={{
+          // when window width is >= 640px
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 20
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 3,
+            spaceBetween: 30
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 40
+          }
+        }}
       >
                 <SwiperSlide> 
                         <div class="bg-[#fefaff] max-w-sm rounded overflow-hidden shadow-lg">
@@ -279,7 +296,7 @@ export default function Explore(){
             </section>
 
 
-            <footer className='fixed flex justify-around items-center left-0 bottom-0 w-full h-16 shadow-[0px_-10px_20px_-20px_rgba(0,0,0,0.3)]  bg-white'>
+            <footer className='fixed flex justify-around z-10000 items-center left-0 bottom-0 w-full h-16 shadow-[0px_-10px_20px_-20px_rgba(0,0,0,0.3)]  bg-white'>
                   <button onClick={a} className="flex flex-col items-center">
                       <AppsIcon ></AppsIcon>
                         <p  >Home</p>

@@ -40,7 +40,7 @@ export  function Onboarding_A(){
             </p>
             <div className=' h-auto flex flex-col items-center justify-center '>
             
-            <img className='w-80' src='https://img.freepik.com/free-vector/new-employee-concept-illustration_114360-8899.jpg?w=740&t=st=1699564473~exp=1699565073~hmac=dd1bde6877ff6bfecdc417d4f9e9f742eb915b2963a139e179691b8b18f01de4' alt="" />
+            <img className='w-80' src='https://img.freepik.com/free-vector/new-employee-concept-illustration_114360-8899.jpg?w=740&t=st=1700073730~exp=1700074330~hmac=9ffb5c43cbf5b9202f5ac30429197cf8ddbd2772e25174e9ab867326de16aca3' alt="" />
             
             </div>
             <h1 className='text-center font-bold text-3xl mt-10'>Welcome</h1>
@@ -52,7 +52,7 @@ export  function Onboarding_A(){
                 </p>
                 <div className=' h-auto flex flex-col items-center justify-center '>
                 
-                <img className='w-80' src='https://img.freepik.com/free-vector/new-employee-concept-illustration_114360-8899.jpg?w=740&t=st=1699564473~exp=1699565073~hmac=dd1bde6877ff6bfecdc417d4f9e9f742eb915b2963a139e179691b8b18f01de4' alt="" />
+                <img className='w-80' src='https://img.freepik.com/free-vector/new-employee-concept-illustration_114360-8899.jpg?w=740&t=st=1700073730~exp=1700074330~hmac=9ffb5c43cbf5b9202f5ac30429197cf8ddbd2772e25174e9ab867326de16aca3' alt="" />
                 
                 </div>
                 <h1 className='text-center font-bold text-3xl mt-10'>You Seek Knowledge?</h1>
@@ -61,7 +61,7 @@ export  function Onboarding_A(){
         <SwiperSlide className='flex flex-col p-4 items-center'>
             <div className=' h-auto flex flex-col items-center justify-center '>
             
-            <img className='w-80' src='https://img.freepik.com/free-vector/new-employee-concept-illustration_114360-8899.jpg?w=740&t=st=1699564473~exp=1699565073~hmac=dd1bde6877ff6bfecdc417d4f9e9f742eb915b2963a139e179691b8b18f01de4' alt="" />
+            <img className='w-80' src='https://img.freepik.com/free-vector/new-employee-concept-illustration_114360-8899.jpg?w=740&t=st=1700073730~exp=1700074330~hmac=9ffb5c43cbf5b9202f5ac30429197cf8ddbd2772e25174e9ab867326de16aca3' alt="" />
             
             </div>
             <h1 className='text-center font-bold text-3xl mt-10'>Start Reading Now</h1>
