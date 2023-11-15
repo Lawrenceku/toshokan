@@ -1,5 +1,6 @@
 footer{
     user-select: none;
+    z-index: 1000;
 }
 .swiper-container {
     width: 480px;

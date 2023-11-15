@@ -94,21 +94,21 @@ export default function Explore(){
         breakpoints={{
           // when window width is >= 640px
           320: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 20
           },
           // when window width is >= 480px
           480: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 30
           },
           // when window width is >= 640px
           640: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             spaceBetween: 40
           }
         }}
-      >
+      className='pb-8'>
                 <SwiperSlide> 
                         <div class="bg-[#fefaff] max-w-sm rounded overflow-hidden shadow-lg">
                         <img class="w-full"  src="https://img.freepik.com/free-vector/science-cover-book-design-with-microscope-watercolor-illustration_83728-2487.jpg?size=626&ext=jpg&ga=GA1.1.1917407316.1652918962&semt=ais" alt="" />
@@ -296,7 +296,7 @@ export default function Explore(){
             </section>
 
 
-            <footer className='fixed flex justify-around z-10000 items-center left-0 bottom-0 w-full h-16 shadow-[0px_-10px_20px_-20px_rgba(0,0,0,0.3)]  bg-white'>
+            <footer className='fixed flex justify-around  items-center left-0 bottom-0 w-full h-16 shadow-[0px_-10px_20px_-20px_rgba(0,0,0,0.3)]  bg-white'>
                   <button onClick={a} className="flex flex-col items-center">
                       <AppsIcon ></AppsIcon>
                         <p  >Home</p>
