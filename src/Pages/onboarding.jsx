@@ -56,7 +56,7 @@ export  function Onboarding_A(){
                 
                 </div>
                 <h1 className='text-center font-bold text-3xl mt-10'>You Seek Knowledge?</h1>
-                <p className=' p-4  pb-8 text-center'>Then you have come to the right place. Get access to sought after books all for free and make use of our free tools to assist you studying journey. </p>
+                <p className=' p-4  pb-8 text-center'>Uncover the treasures of wisdom within Toshokan –Start your Toshokan adventure now and explore our advanced learning tools– your gateway to a world of boundless knowledge and discovery.. </p>
         </SwiperSlide>
         <SwiperSlide className='flex flex-col p-4 items-center'>
             <div className=' h-auto flex flex-col items-center justify-center '>
@@ -65,7 +65,7 @@ export  function Onboarding_A(){
             
             </div>
             <h1 className='text-center font-bold text-3xl mt-10'>Start Reading Now</h1>
-            <p className=' p-4  pb-8 text-center'>Begin your journey to literacy now. Experience a world of infinte knowledge </p>
+            <p className=' p-4  pb-8 text-center'>Embark on a Toshokan journey, where sought-after books meet powerful learning tools. Uncover wisdom with the turn of a page.</p>
            
             <div className='w-full flex flex-col justify-center items-center md:justify-center mt-3'>
             <Button onClick={signup}  className='font-medium  w-full md:w-40 text-white bg-[#001f3f] rounded-full py-2 px-6' variant="contained">Get Started </Button>
