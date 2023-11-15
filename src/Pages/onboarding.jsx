@@ -7,11 +7,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-
-//import './styles.css';
+import 'swiper/css/navigation';
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+import { Keyboard, Pagination, Navigation } from 'swiper/modules';
 
 export  function Onboarding_A(){
     const navigate = useNavigate()
@@ -23,11 +22,16 @@ export  function Onboarding_A(){
     
     <section className='flex flex-col p-4 items-center'>
         <Swiper
+        keyboard={{
+            enabled: true,
+          }}
         pagination={{
           dynamicBullets: true,
           clickable: true,
+          initialSlide:1,
         }}
-        modules={[Pagination]}
+
+        modules={[Keyboard, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide className='flex flex-col p-4 items-center'>
@@ -63,9 +67,9 @@ export  function Onboarding_A(){
             <h1 className='text-center font-bold text-3xl mt-10'>Start Reading Now</h1>
             <p className=' p-4  pb-8 text-center'>Begin your journey to literacy now. Experience a world of infinte knowledge </p>
            
-            <div className='w-full flex flex-col justify-center items-center md:justify-center mt-8'>
+            <div className='w-full flex flex-col justify-center items-center md:justify-center mt-3'>
             <Button onClick={signup}  className='font-medium  w-full md:w-40 text-white bg-[#001f3f] rounded-full py-2 px-6' variant="contained">Get Started </Button>
-            <Button onClick={login}  className='font-medium mt-4 w-full md:w-40 text-[#001f3f] border-1 border-[#001f3f] bg-white rounded-full py-2 px-6' variant="contained">Log In </Button>
+            <Button onClick={login}  className='font-medium mt-4 w-full md:w-40 mb-4 text-[#001f3f] border-1 border-[#001f3f] bg-white rounded-full py-2 px-6' variant="contained">Log In </Button>
             </div>
         </SwiperSlide>
         
