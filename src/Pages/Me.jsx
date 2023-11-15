@@ -22,7 +22,7 @@ export default function Me(){
     return(
         <section className="flex justify-center items-center bg-[#fefaff]">
             <section className="flex flex-col items-center mb-20">
-            <header className="bg-white w-screen flex justify-between p-8 h-36 shadow-md">
+            <header className="bg-white w-screen flex justify-between px-8  items-center h-36 shadow-md">
             <h1 className="font-bold text-left text-3xl m-8">Profile</h1>
             <button><LogoutIcon/></button>
             </header>
@@ -49,13 +49,13 @@ export default function Me(){
                     </div>
                     <div className="-2 flex justify-between shadow-sm my-8 items-center ">
                       <button className="flex items-center">
-                      <img className="h-20 mr-2" src="https://static-00.iconduck.com/assets.00/challenge-icon-2048x2048-30y0t2s5.png" alt="" /><span className="font-medium">Challenges</span> 
+                      <img className="h-20 mr-2" src="https://img.freepik.com/free-vector/illustration-jigsaw-icon_53876-5904.jpg?size=626&ext=jpg&ga=GA1.1.1917407316.1652918962&semt=ais" alt="" /><span className="font-medium">Challenges</span> 
                       </button>
                           <span className="font-medium text-2xl">></span>
                     </div>
                     <div className="p-2 flex justify-between shadow-sm my-8 items-center ">
                       <button className="flex items-center">
-                      <img className="h-20 mr-2" src="https://img.freepik.com/free-vector/character-illustration-people-holding-user-account-icons_53876-43022.jpg?size=626&ext=jpg&ga=GA1.1.1917407316.1652918962&semt=ais" alt="" /><span className="font-medium">About</span> 
+                      <img className="h-20 mr-2" src="https://img.freepik.com/free-vector/illustration-business-people_53876-5879.jpg?size=626&ext=jpg&ga=GA1.1.1917407316.1652918962&semt=ais" alt="" /><span className="font-medium">About</span> 
                       </button>
                           <span className="font-medium text-2xl">></span>
                     </div>
